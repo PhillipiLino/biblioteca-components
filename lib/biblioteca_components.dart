@@ -1,7 +1,12 @@
-library biblioteca_components;
-
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/components/book_image.dart';
+export 'src/components/custom_app_bar.dart';
+export 'src/components/custom_card.dart';
+export 'src/components/default_text_field.dart';
+export 'src/components/empty_list.dart';
+export 'src/components/error_card.dart';
+export 'src/components/main_button.dart';
+export 'src/components/rating_bar.dart';
+export 'src/components/search_bar.dart';
+export 'src/components/star.dart';
+export 'src/ilustrations.dart';
+export 'src/text_styles.dart';
