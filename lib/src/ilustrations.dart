@@ -15,4 +15,19 @@ class MainIllustrations {
     '${_path}empty-library.png',
     package: _package,
   );
+
+  static const emptySearch = AssetImage(
+    '${_path}empty-search.png',
+    package: _package,
+  );
+
+  static const error = AssetImage(
+    '${_path}error.png',
+    package: _package,
+  );
+
+  static const termNotFound = AssetImage(
+    '${_path}term-not-found.png',
+    package: _package,
+  );
 }

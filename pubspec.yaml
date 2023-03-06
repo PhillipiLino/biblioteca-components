@@ -26,6 +26,9 @@ flutter:
   assets:
     - lib/assets/images/book-placeholder.png
     - lib/assets/images/empty-library.png
+    - lib/assets/images/empty-search.png
+    - lib/assets/images/error.png
+    - lib/assets/images/term-not-found.png
 
   #
   # For details regarding assets in packages, see
