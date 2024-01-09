@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 import '../text_styles.dart';
 
-class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   final Size preferredSize;
 
@@ -11,7 +11,7 @@ class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   final bool fromBottom;
   final BuildContext pageContext;
 
-  CustomAppBar({
+  const CustomAppBar({
     required this.title,
     required this.pageContext,
     this.fromBottom = false,
